@@ -4,7 +4,7 @@
 
 - Họ tên: Phạm Tuấn Cường
 - MSSV: 2A202603584
-- Email: ...
+- Email: trancuongx1991@gmail.com
 - Vai trong nhóm: nhóm 1 thành viên, đảm nhận cả bốn vai (người viết code, người kiểm số, người gắn nhãn 1, người gắn nhãn 2 kiêm giữ hồ sơ)
 
 ## 2. Phần việc phụ trách
@@ -32,4 +32,4 @@ Toàn bộ nhiệm vụ A–E, duyệt chéo Gate 2a (chấm nhóm khác và tr�
 
 ## 6. Tự đánh giá
 
-...
+- Khá ổn
