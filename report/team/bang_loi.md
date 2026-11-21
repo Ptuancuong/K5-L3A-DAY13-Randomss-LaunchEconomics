@@ -4,7 +4,7 @@
 
 ## Hai bộ nhãn độc lập
 
-Người gắn nhãn 1: Cường · Người gắn nhãn 2: Cường (gắn trong 8 phút, không trao đổi)
+Người gắn nhãn 1: Cường · Người gắn nhãn 2: Cường sau 30p che cột lượt 1 (gắn trong 8 phút)
 
 | Ca | Mô tả (chép từ đề bài) | Nhãn người 1 | Nhãn người 2 | Trùng? | Nhãn thống nhất |
 | --: | --- | --- | --- | --- | --- |
@@ -27,15 +27,14 @@ Người gắn nhãn 1: Cường · Người gắn nhãn 2: Cường (gắn tron
 | 17 | Bảng giá đổi từ ngày 01/11 nhưng trợ lý vẫn dùng bản cũ trong bộ nhớ đệm cho đơn dưới 2 kg. Lệch 1.000–2.000 đ mỗi đơn, 212 đơn trong 9 ngày, không ai mở lại. | Ngầm | Ngầm | Có | Ngầm |
 | 18 | Trợ lý tính đúng: phí giao 30.000 đ, hoàn 50%. Tin nhắn chỉ ghi "Đã hoàn 15.000 đ", không kèm cách tính. Khách cho là hoàn thiếu và mở lại yêu cầu. | Ngữ cảnh | Ngữ cảnh | Có | Ngữ cảnh |
 | 19 | Khách yêu cầu hoàn phí cho đơn từ 14 tháng trước. Trợ lý chỉ truy cập được dữ liệu 12 tháng. Trợ lý nói rõ không tra được và chuyển cho nhân viên kèm tóm tắt. | Giới hạn hệ thống | Giới hạn hệ thống | Có | Giới hạn hệ thống |
-| 20 | Khách gửi lại yêu cầu sau 10 phút vì chưa thấy phản hồi. Trợ lý hoàn hai lần cho cùng một đơn vì lệnh thứ hai không có khoá chống trùng. | Do người dùng | Hệ thống | Không | Do người dùng |
+| 20 | Khách gửi lại yêu cầu sau 10 phút vì chưa thấy phản hồi. Trợ lý hoàn hai lần cho cùng một đơn vì lệnh thứ hai không có khoá chống trùng. | Do người dùng | Hệ thống | Không | Hệ thống |
 
 **Tỉ lệ đồng thuận:** 18 / 20 = 90% (ca lệch: 13, 20)
 
 ## Quy tắc phân biệt cho các ca không trùng
 
-Mỗi ca không trùng một câu. Đồng thuận dưới 80% thì ghi định nghĩa đã viết lại.
-
-- ...
+- Ca 13 (Giới hạn hệ thống vs. Hệ thống → Giới hạn hệ thống): Khi yêu cầu nằm ngoài phạm vi nghiệp vụ hoặc dữ liệu mà trợ lý được cấp quyền (như sản phẩm của đối tác), luôn gắn Giới hạn hệ thống theo nguyên nhân gốc, dù cách trợ lý trả lời né tránh hay chung chung có biểu hiện giống lỗi Hệ thống.
+- Ca 20 (Do người dùng vs. Hệ thống → Hệ thống): Hành động gửi lại yêu cầu khi chờ lâu không phải lỗi thao tác sai của khách mà là hành vi tự nhiên, nên nguyên nhân gốc gây hoàn tiền hai lần thuộc về Hệ thống do thiếu cơ chế chống trùng lặp (idempotency lock).
 
 ## Bảng khắc phục cho 5 ca, mỗi loại một ca
 

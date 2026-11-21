@@ -35,7 +35,7 @@ Dựng hồ sơ launch v0 cho trợ lý hoàn phí LogiX-VN để Gate 2a duyệ
 ## 5. Khó khăn và cách xử lý
 
 - **Nhóm chỉ có 1 thành viên:** một người giữ cả bốn vai. Vai "người kiểm số" thay bằng tính tay token (245.585 đ) và CPS (4.373.585 / 978 = 4.472 đ) để đối chiếu với code.
-- **Nhiệm vụ C cần hai bộ nhãn độc lập:** không có người gắn nhãn thứ hai nên gắn hai lượt: lượt 1 lúc ..., lượt 2 lúc ... (cách nhau ... phút, không xem lại lượt 1). Hai lượt do cùng một người gắn nên chưa độc lập thật sự; tỉ lệ 90% có thể cao hơn so với hai người khác nhau.
+- **Nhiệm vụ C cần hai bộ nhãn độc lập:** không có người gắn nhãn thứ hai nên gắn hai lượt cách nhau 30 phút, lượt 2 che cột lượt 1, mỗi lượt 8 phút; đồng thuận 18/20, hai ca lệch (13, 20) thống nhất bằng quy tắc nguyên nhân gốc trong `bang_loi.md`. Hai lượt do cùng một người gắn nên chưa độc lập thật sự; tỉ lệ 90% có thể cao hơn so với hai người khác nhau.
 - **Môi trường Windows:** dùng `py -3 -m venv` và `.\.venv\Scripts\Activate.ps1`; thêm `sys.stdout.reconfigure(encoding='utf-8')` để console in đúng tiếng Việt.
 
 ## 6. Tổng hợp đóng góp
